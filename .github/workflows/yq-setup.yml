@@ -9,7 +9,7 @@ on:
 
 jobs:
   setup-yq:
-    runs-on: [ self-hosted, runner-3 ]
+    runs-on: [ self-hosted, runner-1 ]
     
     steps:
       # Check out the repository

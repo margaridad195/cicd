@@ -1,0 +1,235 @@
+[2025-07-01 21:59:54Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO HostContext] Well known config file 'Credentials': '/home/ctw04376/repos/cicd/.github/actions-runner/.credentials'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO HostContext] Well known config file 'Runner': '/home/ctw04376/repos/cicd/.github/actions-runner/.runner'
+[2025-07-01 21:59:54Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2025-07-01 21:59:54Z INFO Listener] RuntimeInformation: Ubuntu 24.04.2 LTS.
+[2025-07-01 21:59:54Z INFO Listener] Version: 2.325.0
+[2025-07-01 21:59:54Z INFO Listener] Commit: 71ed7cd46223bd5d61633445946813012b502d54
+[2025-07-01 21:59:54Z INFO Listener] Culture: 
+[2025-07-01 21:59:54Z INFO Listener] UI Culture: 
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO Listener] Validating directory permissions for: '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO CommandLineParser] Parse
+[2025-07-01 21:59:54Z INFO CommandLineParser] Parsing 5 args
+[2025-07-01 21:59:54Z INFO CommandLineParser] parsing argument
+[2025-07-01 21:59:54Z INFO CommandLineParser] HasArgs: False
+[2025-07-01 21:59:54Z INFO CommandLineParser] Adding Command: configure
+[2025-07-01 21:59:54Z INFO CommandLineParser] parsing argument
+[2025-07-01 21:59:54Z INFO CommandLineParser] HasArgs: True
+[2025-07-01 21:59:54Z INFO CommandLineParser] arg: url
+[2025-07-01 21:59:54Z INFO CommandLineParser] parsing argument
+[2025-07-01 21:59:54Z INFO CommandLineParser] HasArgs: True
+[2025-07-01 21:59:54Z INFO CommandLineParser] Adding option 'url': 'https://github.com/margaridad195/cicd'
+[2025-07-01 21:59:54Z INFO CommandLineParser] parsing argument
+[2025-07-01 21:59:54Z INFO CommandLineParser] HasArgs: True
+[2025-07-01 21:59:54Z INFO CommandLineParser] arg: token
+[2025-07-01 21:59:54Z INFO CommandLineParser] parsing argument
+[2025-07-01 21:59:54Z INFO CommandLineParser] HasArgs: True
+[2025-07-01 21:59:54Z INFO CommandLineParser] Adding option 'token': '***'
+[2025-07-01 21:59:54Z INFO Listener] Arguments parsed
+[2025-07-01 21:59:54Z INFO Runner] ExecuteCommand
+[2025-07-01 21:59:54Z INFO ConfigurationStore] currentAssemblyLocation: /home/ctw04376/repos/cicd/.github/actions-runner/bin/Runner.Listener.dll
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO ConfigurationStore] binPath: /home/ctw04376/repos/cicd/.github/actions-runner/bin
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO ConfigurationStore] RootFolder: /home/ctw04376/repos/cicd/.github/actions-runner
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO HostContext] Well known config file 'Runner': '/home/ctw04376/repos/cicd/.github/actions-runner/.runner'
+[2025-07-01 21:59:54Z INFO ConfigurationStore] ConfigFilePath: /home/ctw04376/repos/cicd/.github/actions-runner/.runner
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO HostContext] Well known config file 'MigratedRunner': '/home/ctw04376/repos/cicd/.github/actions-runner/.runner_migrated'
+[2025-07-01 21:59:54Z INFO ConfigurationStore] MigratedConfigFilePath: /home/ctw04376/repos/cicd/.github/actions-runner/.runner_migrated
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO HostContext] Well known config file 'Credentials': '/home/ctw04376/repos/cicd/.github/actions-runner/.credentials'
+[2025-07-01 21:59:54Z INFO ConfigurationStore] CredFilePath: /home/ctw04376/repos/cicd/.github/actions-runner/.credentials
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/ctw04376/repos/cicd/.github/actions-runner/.credentials_migrated'
+[2025-07-01 21:59:54Z INFO ConfigurationStore] MigratedCredFilePath: /home/ctw04376/repos/cicd/.github/actions-runner/.credentials_migrated
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:54Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:54Z INFO HostContext] Well known config file 'Service': '/home/ctw04376/repos/cicd/.github/actions-runner/.service'
+[2025-07-01 21:59:54Z INFO ConfigurationStore] ServiceConfigFilePath: /home/ctw04376/repos/cicd/.github/actions-runner/.service
+[2025-07-01 21:59:54Z INFO CommandSettings] Flag 'help': 'False'
+[2025-07-01 21:59:54Z INFO CommandSettings] Flag 'version': 'False'
+[2025-07-01 21:59:54Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-07-01 21:59:54Z INFO CommandSettings] Flag 'check': 'False'
+[2025-07-01 21:59:54Z INFO CommandSettings] Command 'configure': 'True'
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: 
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-07-01 21:59:54Z INFO Terminal] WRITE: |                       
+[2025-07-01 21:59:54Z INFO Terminal] WRITE: Self-hosted runner registration
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE:                         |
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-07-01 21:59:54Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-07-01 21:59:54Z INFO ConfigurationManager] ConfigureAsync
+[2025-07-01 21:59:54Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2025-07-01 21:59:54Z INFO ConfigurationStore] IsConfigured()
+[2025-07-01 21:59:54Z INFO ConfigurationStore] IsConfigured: False
+[2025-07-01 21:59:54Z INFO ConfigurationManager] Is configured: False
+[2025-07-01 21:59:54Z INFO CommandSettings] Arg 'url': 'https://github.com/margaridad195/cicd'
+[2025-07-01 21:59:54Z INFO CommandSettings] Remove url from Arg dictionary.
+[2025-07-01 21:59:54Z INFO CommandSettings] Arg 'token': '***'
+[2025-07-01 21:59:54Z INFO CommandSettings] Remove token from Arg dictionary.
+[2025-07-01 21:59:55Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (C186:277AF9:694907:6C8E7F:68645A5B)
+[2025-07-01 21:59:55Z INFO ConfigurationManager] Using V2 flow: False
+[2025-07-01 21:59:55Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2025-07-01 21:59:55Z INFO RunnerServer] EstablishVssConnection
+[2025-07-01 21:59:55Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-07-01 21:59:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-07-01 21:59:55Z INFO RunnerServer] EstablishVssConnection
+[2025-07-01 21:59:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-07-01 21:59:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-07-01 21:59:55Z INFO RunnerServer] EstablishVssConnection
+[2025-07-01 21:59:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-07-01 21:59:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-07-01 21:59:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-07-01 21:59:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-07-01 21:59:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-07-01 21:59:58Z INFO Terminal] WRITE LINE: 
+[2025-07-01 21:59:58Z INFO ConfigurationManager] Test Connection complete.
+[2025-07-01 21:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:58Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:58Z INFO HostContext] Well known config file 'RSACredentials': '/home/ctw04376/repos/cicd/.github/actions-runner/.credentials_rsaparams'
+[2025-07-01 21:59:58Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2025-07-01 21:59:58Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/ctw04376/repos/cicd/.github/actions-runner/.credentials_rsaparams
+[2025-07-01 21:59:58Z INFO RSAFileKeyManager] Which2: 'chmod'
+[2025-07-01 21:59:58Z INFO RSAFileKeyManager] Location: '/usr/bin/chmod'
+[2025-07-01 21:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 21:59:58Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/ctw04376/repos/cicd/.github/actions-runner/.credentials_rsaparams'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   Working directory: '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper] Process started with process id 130392, waiting for process exit.
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-01 21:59:58Z INFO ProcessInvokerWrapper] Finished process 130392 with exit code 0, and elapsed time 00:00:00.0038895.
+[2025-07-01 21:59:58Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/ctw04376/repos/cicd/.github/actions-runner/.credentials_rsaparams
+[2025-07-01 21:59:58Z INFO CommandSettings] Arg 'runnergroup': ''
+[2025-07-01 21:59:58Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-01 21:59:58Z INFO PromptManager] ReadValue
+[2025-07-01 21:59:58Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2025-07-01 21:59:58Z INFO Terminal] WRITE: [press Enter for Default] 
+[2025-07-01 21:59:58Z INFO Terminal] READ LINE
+[2025-07-01 22:00:20Z INFO Terminal] Read value: ''
+[2025-07-01 22:00:20Z INFO PromptManager] Falling back to the default: 'Default'
+[2025-07-01 22:00:20Z INFO Terminal] WRITE LINE: 
+[2025-07-01 22:00:20Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2025-07-01 22:00:20Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-07-01 22:00:20Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-07-01 22:00:20Z INFO CommandSettings] Arg 'name': ''
+[2025-07-01 22:00:20Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-01 22:00:20Z INFO PromptManager] ReadValue
+[2025-07-01 22:00:20Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-07-01 22:00:20Z INFO Terminal] WRITE: [press Enter for L-PW01ZSCG] 
+[2025-07-01 22:00:20Z INFO Terminal] READ LINE
+[2025-07-01 22:00:27Z INFO Terminal] Read value: 'runner-1'
+[2025-07-01 22:00:27Z INFO Terminal] WRITE LINE: 
+[2025-07-01 22:00:27Z INFO CommandSettings] Arg 'labels': ''
+[2025-07-01 22:00:27Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-01 22:00:27Z INFO PromptManager] ReadValue
+[2025-07-01 22:00:27Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-07-01 22:00:27Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-07-01 22:00:27Z INFO Terminal] READ LINE
+[2025-07-01 22:00:35Z INFO Terminal] Read value: 'runner-1'
+[2025-07-01 22:00:35Z INFO Terminal] WRITE LINE: 
+[2025-07-01 22:00:36Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-07-01 22:00:36Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-07-01 22:00:36Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-07-01 22:00:36Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-07-01 22:00:36Z INFO ConfigurationStore] Saving OAuth credential @ /home/ctw04376/repos/cicd/.github/actions-runner/.credentials
+[2025-07-01 22:00:36Z INFO ConfigurationStore] Credentials Saved.
+[2025-07-01 22:00:36Z INFO ConfigurationStore] HasCredentials()
+[2025-07-01 22:00:36Z INFO ConfigurationStore] stored True
+[2025-07-01 22:00:36Z INFO CredentialManager] GetCredentialProvider
+[2025-07-01 22:00:36Z INFO CredentialManager] Creating type OAuth
+[2025-07-01 22:00:36Z INFO CredentialManager] Creating credential type: OAuth
+[2025-07-01 22:00:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ctw04376/repos/cicd/.github/actions-runner/.credentials_rsaparams
+[2025-07-01 22:00:36Z INFO RunnerServer] EstablishVssConnection
+[2025-07-01 22:00:36Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-07-01 22:00:36Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-07-01 22:00:36Z INFO RunnerServer] EstablishVssConnection
+[2025-07-01 22:00:36Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-07-01 22:00:36Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-07-01 22:00:36Z INFO RunnerServer] EstablishVssConnection
+[2025-07-01 22:00:36Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-07-01 22:00:36Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-07-01 22:00:36Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-07-01 22:00:36Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-07-01 22:00:36Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-07-01 22:00:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ctw04376/repos/cicd/.github/actions-runner/.credentials_rsaparams
+[2025-07-01 22:00:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ctw04376/repos/cicd/.github/actions-runner/.credentials_rsaparams
+[2025-07-01 22:00:37Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-07-01 22:00:37Z INFO ConfigurationManager] Service enforced serverUrlV2: https://broker.actions.githubusercontent.com/
+[2025-07-01 22:00:37Z INFO ConfigurationManager] Service enforced useV2Flow: True
+[2025-07-01 22:00:37Z INFO CommandSettings] Arg 'work': ''
+[2025-07-01 22:00:37Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-01 22:00:37Z INFO PromptManager] ReadValue
+[2025-07-01 22:00:37Z INFO Terminal] WRITE: Enter name of work folder: 
+[2025-07-01 22:00:37Z INFO Terminal] WRITE: [press Enter for _work] 
+[2025-07-01 22:00:37Z INFO Terminal] READ LINE
+[2025-07-01 22:00:40Z INFO Terminal] Read value: ''
+[2025-07-01 22:00:40Z INFO PromptManager] Falling back to the default: '_work'
+[2025-07-01 22:00:40Z INFO ConfigurationStore] Saving runner settings.
+[2025-07-01 22:00:40Z INFO ConfigurationStore] Settings Saved.
+[2025-07-01 22:00:40Z INFO Terminal] WRITE LINE: 
+[2025-07-01 22:00:40Z INFO Terminal] WRITE LINE: 
+[2025-07-01 22:00:40Z INFO SystemDControlManager] Service name 'actions.runner.margaridad195-cicd.runner-1.service' display name 'GitHub Actions Runner (margaridad195-cicd.runner-1)' will be used for service configuration.
+[2025-07-01 22:00:40Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 22:00:40Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 22:00:40Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 22:00:40Z INFO HostContext] Well known directory 'Bin': '/home/ctw04376/repos/cicd/.github/actions-runner/bin'
+[2025-07-01 22:00:40Z INFO HostContext] Well known directory 'Root': '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 22:00:40Z INFO UnixUtil] Which2: 'chmod'
+[2025-07-01 22:00:40Z INFO UnixUtil] Location: '/usr/bin/chmod'
+[2025-07-01 22:00:40Z INFO UnixUtil] Running /usr/bin/chmod 755 "/home/ctw04376/repos/cicd/.github/actions-runner/svc.sh"
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/ctw04376/repos/cicd/.github/actions-runner/svc.sh"'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   Working directory: '/home/ctw04376/repos/cicd/.github/actions-runner'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 130888.
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper] System.UnauthorizedAccessException: Access to the path '/proc/130888/oom_score_adj' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at GitHub.Runner.Sdk.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper] Process started with process id 130888, waiting for process exit.
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-01 22:00:40Z INFO ProcessInvokerWrapper] Finished process 130888 with exit code 0, and elapsed time 00:00:00.0084441.
+[2025-07-01 22:00:40Z INFO Listener] Runner execution has finished with return code 0
