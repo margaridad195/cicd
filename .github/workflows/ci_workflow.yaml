@@ -35,6 +35,18 @@ jobs:
           echo "$GREETING"
           echo "REGISTRY: $REGISTRY"
           echo "IMAGE_NAME: $IMAGE_NAME"
+      
+      - name: Use a GitHub Secret
+        env:
+          MY_SECRET: ${{ secrets.MY_SECRET }}
+        run: |
+          if [ -z "$MY_SECRET" ]; then
+            echo "::warning::MY_SECRET is not set. Please add it in GitHub repository settings."
+            echo "To add the secret, go to: https://github.com/margaridad195/cicd/settings/secrets/actions"
+          else
+            echo "The secret is set and its length is ${#MY_SECRET} characters"
+            echo "Note: The actual secret value is masked for security"
+          fi
           
       - name: Check out the repo
         uses: actions/checkout@v3
