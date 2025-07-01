@@ -1,0 +1,27 @@
+name: YQ Setup Workflow
+
+on:
+  # Trigger the workflow on push to main
+  push:
+    branches: [ "main" ]
+  # Allow manual triggers from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  setup-yq:
+    runs-on: [ self-hosted, runner-3 ]
+    
+    steps:
+      # Check out the repository
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      
+      # Run your custom YQ setup action
+      - name: Setup YQ
+        uses: ./Exercício2/setup-yq-template-main/setup-yq-template-main
+        with:
+          yq-version: "v4.30.8"  # You can change this to any version you need
+      
+      # Optional: Verify that yq is installed and working
+      - name: Verify YQ installation
+        run: yq --version

@@ -1,0 +1,24 @@
+name: "Setup YQ CLI"
+description: "Install a specific version of YQ and add it to the PATH"
+inputs:
+  yq-version:
+    description: "The version of YQ to install (e.g., 'v4.30.8')"
+    required: true
+    default: "v4.30.8"
+runs:
+  using: "composite"
+  steps:
+    - name: Download and install YQ
+      shell: bash
+      run: |
+        # Create a directory to store YQ
+        mkdir -p $HOME/.local/bin
+        
+        # Download YQ
+        wget https://github.com/mikefarah/yq/releases/download/${{ inputs.yq-version }}/yq_linux_amd64 -O $HOME/.local/bin/yq
+        
+        # Make it executable
+        chmod +x $HOME/.local/bin/yq
+        
+        # Add the directory to PATH
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
